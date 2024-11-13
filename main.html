@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <form method="post">
+      <label for="name">Name</label>
+      <input type="text" placeholder="Name" id="name" required />
+      <label for="email">Email</label>
+      <input type="email" required id="email" placeholder="Email" />
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+      <input type="radio" name="gender" required id="gender_m">
+      <input type="radio" name="gender" required id="gender_f">
+    </form>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
